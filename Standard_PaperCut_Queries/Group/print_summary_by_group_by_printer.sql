@@ -9,7 +9,7 @@ set @start_date = DATEADD(DAY,-30,@end_date)
 SELECT     group4_.group_name                       AS col_0_0_, 
            printer1_.display_name                   AS col_1_0_, 
            Sum(printerusa0_.total_pages)            AS col_2_0_, 
-           Avg(printerusa0_.total_pagess)    AS col_3_0_, 
+           Avg(printerusa0_.total_pages)            AS col_3_0_, 
            Sum(printerusa0_.usage_cost)             AS col_4_0_, 
            Avg(printerusa0_.usage_cost)             AS col_5_0_, 
            Count(printerusa0_.printer_usage_log_id) AS col_6_0_, 
